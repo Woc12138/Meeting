@@ -26,6 +26,7 @@ public class MyMeetingServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int loginEmpId = ((Employee) req.getSession().getAttribute("loginUser")).getEmployeeid();
         List<Meeting> list = meetingService.getMyMeeting(loginEmpId);
+        req.setAttribute("mrs", list);
         req.getRequestDispatcher("/mymeetings.jsp").forward(req, resp);
     }
 }

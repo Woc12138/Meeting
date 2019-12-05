@@ -214,7 +214,6 @@ public class MeetingDao {
                 meeting.setEmpname(employeename);
                 list.add(meeting);
             }
-            System.out.println("meeting: "+ list);
             return list;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
@@ -323,10 +322,5 @@ public class MeetingDao {
             DBUtils.close(con);
         }
         return -1;
-    }
-
-    public static void main(String[] args) {
-        Meeting meeting = new MeetingDao().getMeetingById(25);
-        System.out.println(meeting.toString());
     }
 }

@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -33,6 +34,7 @@ public class MeetingDetailsServlet extends HttpServlet {
         String mid = req.getParameter("mid");
         String type = req.getParameter("type");
 
+        //参会人员需要填写的信息框
         Meeting meeting = meetingService.getMeetingDetailsByMeetingId(Integer.parseInt(mid));
         List<Employee> emps = meetingService.getEmps();
         List<Option> oplists = meetingService.getOptions(Integer.parseInt(mid));
@@ -40,14 +42,25 @@ public class MeetingDetailsServlet extends HttpServlet {
         req.setAttribute("mt", meeting);
         req.setAttribute("emps", emps);
         req.setAttribute("type", type);
-        String[] empsid = new String[emps.size()];
+
+        //从数据库拉取每个参会人员填写的信息
+        List<OptionInfo> list = new ArrayList<>();
         for (int i = 0;i<emps.size();i++) {
             Employee emp = emps.get(i);
-            empsid[i] = String.valueOf(emp.getEmployeeid());
+            int empsid = emp.getEmployeeid();
+            System.out.println("servlet,empsid: "+empsid);
+            OptionInfo info = optionService.getOptionInfoByEmpid(empsid, Integer.parseInt(mid));
+            if(info != null) {
+                list.add(info);
+            } else {
+                list.add(new OptionInfo(null,null,null,null));
+            }
         }
-        List<OptionInfo> opinfolists = optionService.getOptionInfo(empsid, Integer.parseInt(mid));
-        req.setAttribute("opinfolists", opinfolists);
-        System.out.println(req.getAttribute("opinfolists"));
+        //打包成list在jsp循环
+        List<OptionInfo> opinfo = list;
+        req.setAttribute("opinfolists", opinfo);
+
+        //判断该参会人员信息是否上传
         int status = optionService.justifyupdate(empid, Integer.parseInt(mid));
         if (status == -1) {
             req.setAttribute("error", "参会人员需填写的信息已上传");

@@ -6,7 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76fbc3f3-7777-48e6-8068-3dc32f45f40f" name="Default Changelist" comment="" />
+    <list default="true" id="76fbc3f3-7777-48e6-8068-3dc32f45f40f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/OptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/OptionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MeetingDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MeetingDetailsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/OptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/OptionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MeetingDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MeetingDetailsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/MeetingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/dao/MeetingDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/OptionInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/dao/OptionInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/service/OptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/service/OptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MyMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/servlet/MyMeetingServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -34,6 +51,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1UKIgr4R0PD3bmgh3DjjZZnC6UG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,6 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -132,6 +151,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -182,54 +206,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575101371387" />
-    <state width="1447" height="45" key="GridCell.Tab.0.bottom" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.0.bottom" timestamp="1575533779044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
-    <state width="1447" height="45" key="GridCell.Tab.0.center" timestamp="1575468045439">
+    <state width="1447" height="302" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575533779044" />
+    <state width="1447" height="302" key="GridCell.Tab.0.center" timestamp="1575533779044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575468045439" />
-    <state width="1447" height="45" key="GridCell.Tab.0.left" timestamp="1575468045439">
+    <state width="1447" height="302" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575533779044" />
+    <state width="1447" height="302" key="GridCell.Tab.0.left" timestamp="1575533779044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575468045439" />
-    <state width="1447" height="45" key="GridCell.Tab.0.right" timestamp="1575468045439">
+    <state width="1447" height="302" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575533779044" />
+    <state width="1447" height="302" key="GridCell.Tab.0.right" timestamp="1575533779044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575468045439" />
-    <state width="1447" height="45" key="GridCell.Tab.1.bottom" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575533779044" />
+    <state width="1447" height="302" key="GridCell.Tab.1.bottom" timestamp="1575533778859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
-    <state width="1447" height="45" key="GridCell.Tab.1.center" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
+    <state width="1447" height="302" key="GridCell.Tab.1.center" timestamp="1575533778858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
-    <state width="1447" height="45" key="GridCell.Tab.1.left" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575533778858" />
+    <state width="1447" height="302" key="GridCell.Tab.1.left" timestamp="1575533778858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
-    <state width="1447" height="45" key="GridCell.Tab.1.right" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575533778858" />
+    <state width="1447" height="302" key="GridCell.Tab.1.right" timestamp="1575533778858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
-    <state width="1447" height="45" key="GridCell.Tab.2.bottom" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575533778858" />
+    <state width="1447" height="302" key="GridCell.Tab.2.bottom" timestamp="1575533778859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
-    <state width="1447" height="45" key="GridCell.Tab.2.center" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
+    <state width="1447" height="302" key="GridCell.Tab.2.center" timestamp="1575533778859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
-    <state width="1447" height="45" key="GridCell.Tab.2.left" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
+    <state width="1447" height="302" key="GridCell.Tab.2.left" timestamp="1575533778859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
-    <state width="1447" height="45" key="GridCell.Tab.2.right" timestamp="1575468045440">
+    <state width="1447" height="302" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
+    <state width="1447" height="302" key="GridCell.Tab.2.right" timestamp="1575533778859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="45" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1575468045440" />
+    <state width="1447" height="302" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
     <state width="1025" height="467" key="GridCell.Tab.3.bottom" timestamp="1575102086055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -258,9 +282,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="298" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1575366747822" />
-    <state x="425" y="69" width="672" height="676" key="search.everywhere.popup" timestamp="1575439809423">
+    <state x="425" y="69" width="672" height="676" key="search.everywhere.popup" timestamp="1575534095565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="69" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575439809423" />
+    <state x="425" y="69" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575534095565" />
   </component>
 </project>

@@ -20,8 +20,7 @@ public class OptionService {
     public int justifyupdate(int empid, int mid) {
         return optioninfoDao.justifyupdate(empid, mid);
     }
-    public List<OptionInfo> getOptionInfo(String[] empsid, int mid) {
-        return optioninfoDao.getOptionInfo(empsid, mid);
+    public OptionInfo getOptionInfoByEmpid(int empsid, int mid) {
+        return optioninfoDao.getOptionInfoByEmpid(empsid, mid);
     }
-
 }

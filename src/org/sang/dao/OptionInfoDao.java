@@ -6,8 +6,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class OptionInfoDao {
     public int justifyupdate(int empid, int mid) {
@@ -46,28 +44,19 @@ public class OptionInfoDao {
     }
 
     //得到参会人员填写的参会信息
-    public List<OptionInfo> getOptionInfo(String[] empsid, int mid) {
-        List<OptionInfo> list = new ArrayList<>();
+    public OptionInfo getOptionInfoByEmpid(int empsid, int mid) {
         Connection con = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
         try {
             con = DBUtils.getConnection();
             ps = con.prepareStatement("select * from optioninfo WHERE employeeid=? AND meetingid=?");
-            for (String empid : empsid) {
-                ps.setInt(1, Integer.parseInt(empid));
+                ps.setInt(1, empsid);
                 ps.setInt(2, mid);
                 rs = ps.executeQuery();
-                if(rs.next()){
-                    while (rs.next()) {
-                        list.add(new OptionInfo(rs.getString("IDnumber"), rs.getString("gender"), rs.getString("location"), rs.getString("roomrequired")));
-                        System.out.println("rs: "+list);
-                    }
-                } else {
-                    list.add(new OptionInfo(null, null, null, null));
+                while (rs.next()) {
+                    return new OptionInfo(rs.getString("IDnumber"), rs.getString("gender"), rs.getString("location"), rs.getString("roomrequired"));
                 }
-            }
-            System.out.println("optioninfodao: "+list);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -77,7 +66,7 @@ public class OptionInfoDao {
             DBUtils.close(ps);
             DBUtils.close(con);
         }
-        return list;
+        return null;
     }
 
 
