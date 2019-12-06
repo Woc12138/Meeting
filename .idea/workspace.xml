@@ -8,59 +8,113 @@
   <component name="ChangeListManager">
     <list default="true" id="76fbc3f3-7777-48e6-8068-3dc32f45f40f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/MeetingDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/MeetingOptionsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/MeetingParticipantsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/OptionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/listener/VisitCountListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/service/MeetingRoomService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/service/MeetingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/service/OptionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/ApproveaccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/BookMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/CancelMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/DepartmentsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/GetAllDepJsonServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/GetEmpByDepIdServlete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/MeetingDetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/RegServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/SearchEmployeeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/SearchMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/UpdateDepServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/util/QrCodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/lib/core-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/lib/javase-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/lib/zxing-zxing-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/images/qrcode/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/MeetingDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/MeetingOptionsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/MeetingParticipantsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/OptionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/listener/VisitCountListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/service/MeetingRoomService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/service/MeetingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/service/OptionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/ApproveaccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/BookMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/CancelMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/DepartmentsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/GetAllDepJsonServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/GetEmpByDepIdServlete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/MeetingDetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/RegServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/SearchEmployeeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/SearchMeetingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/UpdateDepServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/util/QrCodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/MeetingDetailsServlet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cn/edu/ncu/util/QrCodeUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/core-3.4.0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javase-3.4.0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/zxing-zxing-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/qrcode/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Meeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/MeetingRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Option.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/OptionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/CountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DBUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DepartmentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/bean/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/bean/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Meeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/bean/Meeting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/MeetingRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/bean/MeetingRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/bean/Option.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/OptionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/bean/OptionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/CountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/CountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/DBUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/DepartmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/EmployeeDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingOptionsDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingParticipantsDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingRoomDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingRoomDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/MeetingRoomDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionInfoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/OptionInfoDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/filter/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/filter/PermissFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/filter/PermissFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/filter/PermissFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/listener/VisitCountListener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/DepartmentService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/EmployeeService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/MeetingRoomService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/MeetingService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/OptionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/AddDepServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/AddDepServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/AddDepServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/AddMeetingRoomServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/ApproveaccountServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/BookMeetingServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/CancelMeetingServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DeleteDepSerlvet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DeleteDepSerlvet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/DeleteDepSerlvet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DepartmentsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoBookMeetingServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoCancelMeetingServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoRegServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoBookMeetingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/DoBookMeetingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoCancelMeetingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/DoCancelMeetingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoRegServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/DoRegServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/GetAllDepJsonServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/GetEmpByDepIdServlete.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/LoginServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MeetingDetailsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MyBookingServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MyMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MyBookingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/MyBookingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MyMeetingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/MyMeetingServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/RegServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/SearchEmployeeServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/SearchMeetingServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateDepServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateEmpStatusServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateOptServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateEmpStatusServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/UpdateEmpStatusServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateOptServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/UpdateOptServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/approveaccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/approveaccount.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/bookmeeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/bookmeeting.jsp" afterDir="false" />
@@ -78,52 +132,52 @@
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/styles/common02.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/styles/common03.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Meeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/MeetingRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Option.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/OptionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/CountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DBUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DepartmentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/bean/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/bean/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Meeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/bean/Meeting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/MeetingRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/bean/MeetingRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/bean/Option.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/OptionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/bean/OptionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/CountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/CountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/DBUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/dao/DepartmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/EmployeeDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingOptionsDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingParticipantsDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingRoomDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingRoomDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/MeetingRoomDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionInfoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/dao/OptionInfoDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/filter/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/filter/PermissFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/filter/PermissFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/filter/PermissFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/listener/VisitCountListener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/DepartmentService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/EmployeeService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/MeetingRoomService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/MeetingService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/OptionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/AddDepServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/AddDepServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/AddDepServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/AddMeetingRoomServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/ApproveaccountServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/BookMeetingServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/CancelMeetingServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DeleteDepSerlvet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DeleteDepSerlvet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/DeleteDepSerlvet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DepartmentsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoBookMeetingServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoCancelMeetingServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoRegServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoBookMeetingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/DoBookMeetingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoCancelMeetingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/DoCancelMeetingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoRegServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/DoRegServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/GetAllDepJsonServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/GetEmpByDepIdServlete.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/LoginServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MeetingDetailsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MyBookingServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MyMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MyBookingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/MyBookingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MyMeetingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/MyMeetingServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/RegServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/SearchEmployeeServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/SearchMeetingServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateDepServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateEmpStatusServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateOptServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateEmpStatusServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/cn/edu/ncu/servlet/UpdateEmpStatusServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateOptServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/cn/edu/ncu/servlet/UpdateOptServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/bean/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/bean/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/Meeting.java" afterDir="false" />
@@ -149,7 +203,7 @@
       <change beforePath="$PROJECT_DIR$/src/org/sang/service/MeetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/service/MeetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/service/OptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/service/OptionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/AddDepServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/AddDepServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/AddMeetingRoomServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/AddMeetingRoomServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/AddMeetingRoomServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/ApproveaccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/ApproveaccountServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/BookMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/BookMeetingServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/CancelMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/CancelMeetingServlet.java" afterDir="false" />
@@ -161,7 +215,7 @@
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/GetAllDepJsonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/GetAllDepJsonServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/GetEmpByDepIdServlete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/GetEmpByDepIdServlete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/MeetingDetailsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MyBookingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/MyBookingServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MyMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/MyMeetingServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/RegServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/RegServlet.java" afterDir="false" />
