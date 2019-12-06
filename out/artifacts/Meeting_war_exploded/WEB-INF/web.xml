@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>regServlet</servlet-name>
-        <servlet-class>org.sang.servlet.RegServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.RegServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>regServlet</servlet-name>
@@ -13,7 +13,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>doRegServlet</servlet-name>
-        <servlet-class>org.sang.servlet.DoRegServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.DoRegServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>doRegServlet</servlet-name>
@@ -21,7 +21,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>UpdateOptServlet</servlet-name>
-        <servlet-class>org.sang.servlet.UpdateOptServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.UpdateOptServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UpdateOptServlet</servlet-name>
@@ -29,7 +29,7 @@
     </servlet-mapping>
     <filter>
         <filter-name>encodingFilter</filter-name>
-        <filter-class>org.sang.filter.EncodingFilter</filter-class>
+        <filter-class>cn.edu.ncu.filter.EncodingFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>encodingFilter</filter-name>
@@ -37,7 +37,7 @@
     </filter-mapping>
     <servlet>
         <servlet-name>loginServlet</servlet-name>
-        <servlet-class>org.sang.servlet.LoginServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>loginServlet</servlet-name>
@@ -45,7 +45,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>departmentsServlet</servlet-name>
-        <servlet-class>org.sang.servlet.DepartmentsServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.DepartmentsServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>departmentsServlet</servlet-name>
@@ -53,7 +53,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>deleteDepServlet</servlet-name>
-        <servlet-class>org.sang.servlet.DeleteDepSerlvet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.DeleteDepSerlvet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>deleteDepServlet</servlet-name>
@@ -61,7 +61,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>addDepServlet</servlet-name>
-        <servlet-class>org.sang.servlet.AddDepServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.AddDepServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>addDepServlet</servlet-name>
@@ -69,7 +69,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>updateDepServlet</servlet-name>
-        <servlet-class>org.sang.servlet.UpdateDepServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.UpdateDepServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>updateDepServlet</servlet-name>
@@ -77,7 +77,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>approveaccountServlet</servlet-name>
-        <servlet-class>org.sang.servlet.ApproveaccountServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.ApproveaccountServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>approveaccountServlet</servlet-name>
@@ -85,7 +85,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>updateEmpStatusServlet</servlet-name>
-        <servlet-class>org.sang.servlet.UpdateEmpStatusServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.UpdateEmpStatusServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>updateEmpStatusServlet</servlet-name>
@@ -93,7 +93,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>searchEmpServlet</servlet-name>
-        <servlet-class>org.sang.servlet.SearchEmployeeServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.SearchEmployeeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>searchEmpServlet</servlet-name>
@@ -101,7 +101,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>addMeetingRoomServlet</servlet-name>
-        <servlet-class>org.sang.servlet.AddMeetingRoomServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.AddMeetingRoomServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>addMeetingRoomServlet</servlet-name>
@@ -109,7 +109,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>bookMeetingServlet</servlet-name>
-        <servlet-class>org.sang.servlet.BookMeetingServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.BookMeetingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>bookMeetingServlet</servlet-name>
@@ -117,7 +117,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>getAllDepJsonServlet</servlet-name>
-        <servlet-class>org.sang.servlet.GetAllDepJsonServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.GetAllDepJsonServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>getAllDepJsonServlet</servlet-name>
@@ -125,7 +125,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>getEmpByDepIdServlet</servlet-name>
-        <servlet-class>org.sang.servlet.GetEmpByDepIdServlete</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.GetEmpByDepIdServlete</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>getEmpByDepIdServlet</servlet-name>
@@ -133,7 +133,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>dobookmeetingServlet</servlet-name>
-        <servlet-class>org.sang.servlet.DoBookMeetingServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.DoBookMeetingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>dobookmeetingServlet</servlet-name>
@@ -141,7 +141,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>searchMeetingServlet</servlet-name>
-        <servlet-class>org.sang.servlet.SearchMeetingServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.SearchMeetingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>searchMeetingServlet</servlet-name>
@@ -149,7 +149,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>meetingDetailsServlet</servlet-name>
-        <servlet-class>org.sang.servlet.MeetingDetailsServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.MeetingDetailsServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>meetingDetailsServlet</servlet-name>
@@ -157,7 +157,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>myBookingServlet</servlet-name>
-        <servlet-class>org.sang.servlet.MyBookingServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.MyBookingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>myBookingServlet</servlet-name>
@@ -165,7 +165,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>cancelMeetingServlet</servlet-name>
-        <servlet-class>org.sang.servlet.CancelMeetingServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.CancelMeetingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>cancelMeetingServlet</servlet-name>
@@ -173,7 +173,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>doCanceledBookingServlet</servlet-name>
-        <servlet-class>org.sang.servlet.DoCancelMeetingServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.DoCancelMeetingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>doCanceledBookingServlet</servlet-name>
@@ -181,18 +181,18 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>myMeetingServlet</servlet-name>
-        <servlet-class>org.sang.servlet.MyMeetingServlet</servlet-class>
+        <servlet-class>cn.edu.ncu.servlet.MyMeetingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>myMeetingServlet</servlet-name>
         <url-pattern>/mymeeting</url-pattern>
     </servlet-mapping>
     <listener>
-        <listener-class>org.sang.listener.VisitCountListener</listener-class>
+        <listener-class>cn.edu.ncu.listener.VisitCountListener</listener-class>
     </listener>
     <filter>
         <filter-name>permissFilter</filter-name>
-        <filter-class>org.sang.filter.PermissFilter</filter-class>
+        <filter-class>cn.edu.ncu.filter.PermissFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>permissFilter</filter-name>

@@ -2,7 +2,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>CoolMeeting会议管理系统</title>
+    <title>Meeting会议管理系统</title>
     <link rel="stylesheet" href="styles/common.css"/>
     <style type="text/css">
     </style>
@@ -81,10 +81,6 @@
         </form>
     </div>
 </div>
-<div class="page-footer">
-    <hr/>
-    更多问题，欢迎联系<a href="mailto:webmaster@eeg.com">管理员</a>
-    <img src="images/footer.png" alt="CoolMeeting"/>
-</div>
+
 </body>
 </html>

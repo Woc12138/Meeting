@@ -7,19 +7,186 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76fbc3f3-7777-48e6-8068-3dc32f45f40f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/edu/ncu/util/QrCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/core-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javase-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/zxing-zxing-3.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionInfoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/OptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/OptionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MeetingDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MeetingDetailsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionInfoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/OptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/OptionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MeetingDetailsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MeetingDetailsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/MeetingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/dao/MeetingDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/OptionInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/dao/OptionInfoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/service/OptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/service/OptionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MyMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/sang/servlet/MyMeetingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Meeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/MeetingRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/Option.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/bean/OptionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/CountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/DepartmentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingOptionsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingParticipantsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/MeetingRoomDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/dao/OptionInfoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/filter/PermissFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/listener/VisitCountListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/DepartmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/MeetingRoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/MeetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/service/OptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/AddDepServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/AddMeetingRoomServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/ApproveaccountServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/BookMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/CancelMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DeleteDepSerlvet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DepartmentsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoBookMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoCancelMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/DoRegServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/GetAllDepJsonServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/GetEmpByDepIdServlete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MeetingDetailsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MyBookingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/MyMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/RegServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/SearchEmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/SearchMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateDepServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateEmpStatusServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/classes/org/sang/servlet/UpdateOptServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/approveaccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/approveaccount.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/bookmeeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/bookmeeting.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/cancelmeeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/cancelmeeting.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/departments.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/departments.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/images/footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/images/footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/meetingdetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/meetingdetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/mybookings.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/mybookings.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/mymeetings.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/mymeetings.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/searchemployees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/searchemployees.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/searchmeetings.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/searchmeetings.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/styles/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/styles/common02.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/styles/common03.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Meeting_war_exploded/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Meeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/MeetingRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/Option.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/bean/OptionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/CountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/DepartmentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingOptionsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingParticipantsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/MeetingRoomDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/dao/OptionInfoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/filter/PermissFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/listener/VisitCountListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/DepartmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/MeetingRoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/MeetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/service/OptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/AddDepServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/AddMeetingRoomServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/ApproveaccountServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/BookMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/CancelMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DeleteDepSerlvet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DepartmentsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoBookMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoCancelMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/DoRegServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/GetAllDepJsonServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/GetEmpByDepIdServlete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MeetingDetailsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MyBookingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/MyMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/RegServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/SearchEmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/SearchMeetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateDepServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateEmpStatusServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Meeting/org/sang/servlet/UpdateOptServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/bean/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/bean/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/Meeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/bean/MeetingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/MeetingRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/bean/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/bean/OptionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/bean/OptionInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/CountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/CountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/DepartmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/MeetingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/MeetingDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/MeetingOptionsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/MeetingOptionsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/MeetingParticipantsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/MeetingParticipantsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/MeetingRoomDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/MeetingRoomDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/OptionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/OptionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/dao/OptionInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/dao/OptionInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/filter/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/filter/PermissFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/filter/PermissFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/listener/VisitCountListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/listener/VisitCountListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/service/MeetingRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/service/MeetingRoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/service/MeetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/service/MeetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/service/OptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/service/OptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/AddDepServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/AddDepServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/AddMeetingRoomServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/AddMeetingRoomServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/ApproveaccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/ApproveaccountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/BookMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/BookMeetingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/CancelMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/CancelMeetingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/DeleteDepSerlvet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/DeleteDepSerlvet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/DepartmentsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/DepartmentsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/DoBookMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/DoBookMeetingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/DoCancelMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/DoCancelMeetingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/DoRegServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/DoRegServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/GetAllDepJsonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/GetAllDepJsonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/GetEmpByDepIdServlete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/GetEmpByDepIdServlete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MeetingDetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/MeetingDetailsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MyBookingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/MyBookingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/MyMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/MyMeetingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/RegServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/RegServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/SearchEmployeeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/SearchEmployeeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/SearchMeetingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/SearchMeetingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/UpdateDepServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/UpdateDepServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/UpdateEmpStatusServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/UpdateEmpStatusServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/sang/servlet/UpdateOptServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/ncu/servlet/UpdateOptServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/approveaccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/approveaccount.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bookmeeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bookmeeting.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cancelmeeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cancelmeeting.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/departments.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/departments.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/meetingdetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/meetingdetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mybookings.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mybookings.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mymeetings.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mymeetings.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/searchemployees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/searchemployees.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/searchmeetings.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/searchmeetings.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/common02.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/common03.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/top.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +196,28 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Meeting" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,26 +241,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/zxing-zxing-3.2.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.sang.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ\Project location\Meeting\web\WEB-INF\lib" />
+      <recent name="E:\IntelliJ\Project location\Meeting\web\images" />
+      <recent name="E:\IntelliJ\Project location\Meeting\web" />
+      <recent name="E:\IntelliJ\Project location\Meeting\web\html" />
+      <recent name="E:\IntelliJ\Project location\Meeting\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IntelliJ\Project location\Meeting\web\WEB-INF\lib" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IntelliJ\Project location\Meeting\web" />
-      <recent name="E:\IntelliJ\Project location\Meeting\web\html" />
-      <recent name="E:\IntelliJ\Project location\Meeting\web\WEB-INF\lib" />
-      <recent name="E:\IntelliJ\Project location\Meeting\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.sang.service" />
     </key>
   </component>
   <component name="RunManager">
@@ -170,6 +352,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Notifications" timestamp="1575560943426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1575560943426" />
     <state x="361" y="72" width="820" height="680" key="#Project_Structure" timestamp="1575100541863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -202,58 +388,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="168" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575101390565" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1575101371387">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1575612544846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575101371387" />
-    <state width="1447" height="302" key="GridCell.Tab.0.bottom" timestamp="1575533779044">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575612544846" />
+    <state width="796" height="261" key="GridCell.Tab.0.bottom" timestamp="1575613888100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575533779044" />
-    <state width="1447" height="302" key="GridCell.Tab.0.center" timestamp="1575533779044">
+    <state width="796" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575613888100" />
+    <state width="796" height="261" key="GridCell.Tab.0.center" timestamp="1575613888100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575533779044" />
-    <state width="1447" height="302" key="GridCell.Tab.0.left" timestamp="1575533779044">
+    <state width="796" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575613888100" />
+    <state width="796" height="261" key="GridCell.Tab.0.left" timestamp="1575613888100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575533779044" />
-    <state width="1447" height="302" key="GridCell.Tab.0.right" timestamp="1575533779044">
+    <state width="796" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575613888100" />
+    <state width="796" height="261" key="GridCell.Tab.0.right" timestamp="1575613888100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575533779044" />
-    <state width="1447" height="302" key="GridCell.Tab.1.bottom" timestamp="1575533778859">
+    <state width="796" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575613888100" />
+    <state width="796" height="261" key="GridCell.Tab.1.bottom" timestamp="1575613887946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
-    <state width="1447" height="302" key="GridCell.Tab.1.center" timestamp="1575533778858">
+    <state width="796" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575613887946" />
+    <state width="796" height="261" key="GridCell.Tab.1.center" timestamp="1575613887946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575533778858" />
-    <state width="1447" height="302" key="GridCell.Tab.1.left" timestamp="1575533778858">
+    <state width="796" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575613887946" />
+    <state width="796" height="261" key="GridCell.Tab.1.left" timestamp="1575613887946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575533778858" />
-    <state width="1447" height="302" key="GridCell.Tab.1.right" timestamp="1575533778858">
+    <state width="796" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575613887946" />
+    <state width="796" height="261" key="GridCell.Tab.1.right" timestamp="1575613887946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575533778858" />
-    <state width="1447" height="302" key="GridCell.Tab.2.bottom" timestamp="1575533778859">
+    <state width="796" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575613887946" />
+    <state width="796" height="261" key="GridCell.Tab.2.bottom" timestamp="1575613887946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
-    <state width="1447" height="302" key="GridCell.Tab.2.center" timestamp="1575533778859">
+    <state width="796" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575613887946" />
+    <state width="796" height="261" key="GridCell.Tab.2.center" timestamp="1575613887946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
-    <state width="1447" height="302" key="GridCell.Tab.2.left" timestamp="1575533778859">
+    <state width="796" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1575613887946" />
+    <state width="796" height="261" key="GridCell.Tab.2.left" timestamp="1575613887946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
-    <state width="1447" height="302" key="GridCell.Tab.2.right" timestamp="1575533778859">
+    <state width="796" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1575613887946" />
+    <state width="796" height="261" key="GridCell.Tab.2.right" timestamp="1575613887946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1447" height="302" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1575533778859" />
+    <state width="796" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1575613887946" />
     <state width="1025" height="467" key="GridCell.Tab.3.bottom" timestamp="1575102086055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -270,21 +456,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1025" height="467" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1575102086054" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1575118685171">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1575612547535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575118685171" />
-    <state x="439" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1575529476228">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575612547535" />
+    <state x="439" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1575611821334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575529476228" />
+    <state x="439" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575611821334" />
     <state x="298" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575366747822">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="298" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1575366747822" />
-    <state x="425" y="69" width="672" height="676" key="search.everywhere.popup" timestamp="1575534095565">
+    <state x="425" y="69" width="672" height="676" key="search.everywhere.popup" timestamp="1575613572871">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="69" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575534095565" />
+    <state x="425" y="69" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575613572871" />
   </component>
 </project>

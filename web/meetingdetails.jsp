@@ -2,17 +2,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>CoolMeeting会议管理系统</title>
+    <title>Meeting会议管理系统</title>
     <link rel="stylesheet" href="styles/common.css"/>
+    <script src="js/jquery-3.2.1.js"></script>
     <style type="text/css">
         #divoperator input[type="button"] {
             margin: 10px 0;
         }
     </style>
-    <script type="application/javascript">
-    </script>
+
 </head>
-<body onload="body_load()">
+<body>
 <jsp:include page="top.jsp"/>
 <div class="page-body">
     <jsp:include page="leftMenu.jsp"/>
@@ -24,12 +24,17 @@
         <form action="/meeting/updateoptinfo" method="post">
             <fieldset>
                 <legend>会议信息</legend>
-                <table class="formtable">
+                <table class="formtable" id="table">
                     <c:if test="${error!=null}">
                         <tr>
-                            <td colspan="2">${error}</td>
+                            <td colspan="2" style="color: red">${error}</td>
                         </tr>
                     </c:if>
+                    <tr>
+                        <td>会议二维码：</td>
+<%--                        显示zxing方法的二维码--%>
+                        <td><img class="q_code" src="images/qrcode/img.png" /></td>
+                    </tr>
                     <tr>
                         <td>会议编码：</td>
                         <td>${mt.meetingid}</td>
@@ -99,7 +104,8 @@
                         </td>
                     </tr>
                     </c:if>
-                    <tr>
+<%--                    显示qrcode方法的二维码--%>
+<%--                    <img class="q_code" src="${path}/tv/getQ?id=${mid}" />--%>
                     <tr>
                         <td class="command" colspan="2">
                             <c:if test="${type=='cancel'}">
@@ -109,19 +115,38 @@
                             <c:if test="${error==null}">
                                 <input type="submit" class="clickbutton" value="上传信息" />
                             </c:if>
+                            <c:if test="${error!=null}">
+                                <input type="button" class="clickbutton" value="导出excel" onclick="tableToExcel('table','excel')" />
+                            </c:if>
                             <input type="button" class="clickbutton" value="返回" onclick="window.history.back();"/>
                         </td>
-                    </tr>
                     </tr>
                 </table>
             </fieldset>
         </form>
     </div>
 </div>
-<div class="page-footer">
-    <hr/>
-    更多问题，欢迎联系<a href="mailto:webmaster@eeg.com">管理员</a>
-    <img src="images/footer.png" alt="CoolMeeting"/>
-</div>
+
+<script type="application/javascript">
+
+    function base64(content) {
+        return window.btoa(unescape(encodeURIComponent(content)));
+    }
+    function tableToExcel(tableID, fileName) {
+        var excelContent = $("#" + tableID).html();
+        // 		alert(excelContent);
+        var excelFile = "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'>";
+        excelFile += "<head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head>";
+        excelFile += "<body><table width='10%'  border='1'>";
+        excelFile += excelContent;
+        excelFile += "</table></body>";
+        excelFile += "</html>";
+        var link = "data:application/vnd.ms-excel;base64," + base64(excelFile);
+        var a = document.createElement("a");
+        a.download = fileName + ".xlsx";
+        a.href = link;
+        a.click();
+    }
+</script>
 </body>
 </html>
